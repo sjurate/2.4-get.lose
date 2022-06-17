@@ -75,7 +75,7 @@ h3 {
     color: #151262;
 }
 
-main a {
+.main-btn {
     display: inline-block; 
     font-size: 15px;
     margin-top: 40px; 
@@ -87,6 +87,12 @@ main a {
     color: #FE715B; 
     font-weight: bold;
     text-decoration: none;
+    box-shadow: 2px 4px 8px #FE715B;
+    transition: all 0.3s;
+}
+
+.main-btn:hover {
+    box-shadow: 3px 5px 12px #FDD6D0;
 }
 
 main img {
